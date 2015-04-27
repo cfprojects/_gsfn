@@ -1,0 +1,26 @@
+﻿<!--- An example page using the oAuth (GetSatisfaction.com FastPass) --->
+<cfset oFastPass = CreateObject("component", "com/gsfn")>
+<cfset user = #session.auth.userid#>
+
+<cfoutput>
+
+	<!--- Let's do a sample based on FastPass Creds.
+	This is just a check to ensure that the FastPass authentication is working properly.
+	Replace these credentials with your info:
+	http://getsatisfaction.com/coreshield/admin/fastpasses
+	 --->
+	
+	<cfscript>
+	signMeIn = oFastPass.authenticateUser(
+	key="htzxbdm37z63"
+	,secret="vp3gvy0js4dhbus5dcmtgjzqs5gtqvgg"
+	,email="#session.auth.defaultemail#"
+	,name="#session.auth.firstname# #session.auth.lastname#"
+	,uid="#session.auth.userid#"
+	);
+	</cfscript>
+	
+	#signMeIn#
+</cfoutput>
+
+Done. View Source and watch the Tokens Change.

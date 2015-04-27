@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/memberportal/!svn/ver/928/trunk/_gsfn/javaloader
+END
+licence.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/memberportal/!svn/ver/928/trunk/_gsfn/javaloader/licence.txt
+END
+JavaLoader.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/memberportal/!svn/ver/928/trunk/_gsfn/javaloader/JavaLoader.cfc
+END
+JavaCompiler.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/memberportal/!svn/ver/928/trunk/_gsfn/javaloader/JavaCompiler.cfc
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/memberportal/!svn/ver/928/trunk/_gsfn/javaloader/readme.txt
+END
+JavaProxy.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/memberportal/!svn/ver/928/trunk/_gsfn/javaloader/JavaProxy.cfc
+END
